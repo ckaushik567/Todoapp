@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    ;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+
+    padding: 40px;
+    overflow-y: scroll;
+}
+
+.list-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    color: white;
+    position: absolute;
+    left: 52vw;
+    top: 23vh;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.icon:hover {
+    color: red;
+}
+
+.icon1 {
+    color: white;
+    position: absolute;
+    left: 55vw;
+    top: 23vh;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.icon1:hover {
+    color: yellow;
+}
+
+.li-style {
+    color: white;
+    margin-top: 40px;
+    border: 1px solid white;
+    list-style-type: none;
+    width: 25vw;
+    border-radius: 6px;
+    padding: 15px;
+    margin-right: 140px;
+    font-weight: 600;
+    background-color: black;
+    outline: none;
+}
+
+.icon-style {
+    color: white;
+    margin-left: 205px;
+    cursor: pointer;
+
+}
+
+.icon-style1 {
+    color: white;
+    margin-left: 22px;
+    cursor: pointer;
+    position: fixed;
+}
+
+.icon-style2 {
+    color: green;
+    /* position: absolute;
+    left: 54vw;
+    top: 37.5vh; */
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.icon-style3 {
+    color: red;
+    /* position: absolute;
+    left: 54vw;
+    top: 37.5vh; */
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.container1 .icon-style2{
+    display: flex;
+    margin-top: -36px;
+    margin-left: 300px;
+}
+.container1 .icon-style3{
+    display: flex;
+    margin-top: -25px;
+    margin-left: 260px;
+}
+
+.icon-style:hover {
+    color: red;
+}
+.icon-style1:hover {
+    color: yellow;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+.input-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+
+.input-text input {
+    width: 28vw;
+    height: 9vh;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 8px;
+    background-color: black;
+    color: white;
+}
+
+.input-text button {
+    width: 10vw;
+    height: 7vh;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: rgb(80, 80, 94);
+    color: white;
+}
+
+body {
+    background-color: black;
+}
